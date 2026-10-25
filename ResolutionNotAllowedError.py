@@ -1,0 +1,2 @@
+class ResolutionNotAllowedError(Exception):
+    pass
