@@ -7,7 +7,7 @@ class User:
         self.username = username
         self.email = email
         self.subscription = subscription
-        self.saved_watchlist: list[MediaItem] = [] #עם רמז טיפוס (נקי ומסודר יותר ב-OOP)
+        self.saved_watchlist: list[MediaItem] = [] 
         self.watch_history: list[MediaItem] = []
         self.perks_box: list = []
 
